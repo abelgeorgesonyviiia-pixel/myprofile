@@ -1,0 +1,99 @@
+/* ...existing code... */
+:root{
+  --bg: #f4f4f4;
+  --card: #ffffff;
+  --text: #222;
+  --muted: #555;
+  --accent: #4f46e5;
+  --radius: 10px;
+  --max-width: 900px;
+  --gap: 18px;
+  --font-sans: Arial, Helvetica, sans-serif;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:40px;
+  font-family: var(--font-sans);
+  background-color: var(--bg);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  line-height:1.6;
+}
+
+/* Main container (supports your existing class names) */
+.container,
+.CSE-A,
+.CSE-A.S3 {
+  width: 90%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  background: var(--card);
+  padding: 22px;
+  border-radius: var(--radius);
+  box-shadow: 0 8px 30px rgba(16,24,40,0.06);
+}
+
+/* Headings */
+h1{
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 28px;
+  letter-spacing: 0.3px;
+  color: var(--text);
+}
+h2{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #2b2b2b;
+  border-bottom: 1px solid rgba(16,24,40,0.06);
+  padding-bottom: 8px;
+}
+
+/* Paragraphs & metadata */
+p{ margin: 6px 0; color:var(--muted) }
+p strong{ color:var(--text) }
+
+/* Lists */
+ul{
+  line-height:1.8;
+  margin: 8px 0 18px 18px;
+  padding: 0;
+}
+li{
+  margin: 4px 0;
+  color:var(--muted);
+}
+
+/* Contact info styling */
+a[href^="mailto"], a[href^="tel"]{
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+a[href^="mailto"]:hover, a[href^="tel"]:hover{ text-decoration: underline }
+
+/* Utility layout */
+.section{
+  margin-top: var(--gap);
+}
+
+/* Responsive improvements */
+@media (min-width:720px){
+  body{ margin: 48px }
+  .container, .CSE-A, .CSE-A.S3{
+    padding: 28px;
+  }
+  h1{ font-size: 34px }
+  h2{ font-size: 20px }
+}
+
+/* Print-friendly */
+@media print{
+  body{ background: white; margin: 0 }
+  .container, .CSE-A, .CSE-A.S3{ box-shadow:none; border-radius:0; }
+}
+/* ...existing code... */
