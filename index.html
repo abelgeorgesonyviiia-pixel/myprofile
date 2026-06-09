@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abel George Sony - Professional Portfolio</title>
+    <title>Abel George Sony - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -23,30 +23,40 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
+        <div class="stars"></div>
         <div class="hero-content">
-            <h1>Abel George Sony</h1>
-            <p class="subtitle">B.Tech Student | Web Developer</p>
-            <p class="hero-description">Passionate about creating elegant solutions to complex problems through web development and continuous learning.</p>
-            <a href="#contact" class="btn btn-primary">Get In Touch</a>
+            <h1 class="hero-title">Abel George Sony</h1>
+            <p class="hero-subtitle">Web Developer & Tech Enthusiast</p>
+            <p class="hero-description">Crafting beautiful digital experiences with code and creativity</p>
+            <a href="#contact" class="btn btn-primary">Let's Connect</a>
         </div>
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="section about">
         <div class="container">
             <h2>About Me</h2>
-            <p class="section-subtitle">Professional Background & Information</p>
-            <div class="about-text">
-                <p>I am a B.Tech student with a strong passion for web development and software engineering. I thrive in collaborative environments and consistently deliver high-quality solutions. My journey in technology has been driven by curiosity and a commitment to continuous improvement.</p>
-                
-                <div class="contact-info">
-                    <div class="info-item">
-                        <div class="info-label">Email</div>
-                        <div class="info-value"><a href="mailto:abelgeorgesonyviiia@gmail.com">abelgeorgesonyviiia@gmail.com</a></div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-label">Phone</div>
-                        <div class="info-value"><a href="tel:+918848236175">+91 8848236175</a></div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a B.Tech student passionate about creating stunning web experiences. With a keen eye for design and a love for problem-solving, I transform ideas into beautiful, functional digital products.</p>
+                    
+                    <div class="contact-cards">
+                        <div class="contact-item">
+                            <span class="icon">📧</span>
+                            <div>
+                                <p class="label">Email</p>
+                                <a href="mailto:abelgeorgesonyviiia@gmail.com">abelgeorgesonyviiia@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">📱</span>
+                            <div>
+                                <p class="label">Phone</p>
+                                <a href="tel:+918848236175">+91 8848236175</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -57,18 +67,66 @@
     <section class="section education">
         <div class="container">
             <h2>Education</h2>
-            <p class="section-subtitle">Academic Qualifications</p>
             <div class="education-grid">
-                <div class="education-card">
+                <div class="glass-card education-card">
+                    <div class="card-icon">🎓</div>
                     <h3>B.Tech</h3>
                     <p class="education-details">Bachelor of Technology</p>
-                    <p class="education-details">Currently Pursuing</p>
+                    <p class="year">Currently Pursuing</p>
                 </div>
-                <div class="education-card">
+                <div class="glass-card education-card">
+                    <div class="card-icon">📚</div>
                     <h3>Secondary Education</h3>
                     <p class="education-details">BNV School</p>
-                    <p class="education-details">Completed</p>
+                    <p class="year">Completed</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>C Programming</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                    <p class="skill-percent">85%</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Python</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                    <p class="skill-percent">80%</p>
+                </div>
+                <div class="skill-item">
+                    <h3>HTML & CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                    <p class="skill-percent">90%</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Web Development</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                    <p class="skill-percent">85%</p>
+                </div>
+            </div>
+
+            <h2 style="margin-top: 80px;">Soft Skills</h2>
+            <div class="soft-skills">
+                <span class="skill-tag">💬 Communication</span>
+                <span class="skill-tag">🤝 Teamwork</span>
+                <span class="skill-tag">🧩 Problem Solving</span>
+                <span class="skill-tag">👨‍💼 Leadership</span>
+                <span class="skill-tag">⏰ Time Management</span>
+                <span class="skill-tag">🔄 Adaptability</span>
             </div>
         </div>
     </section>
@@ -77,51 +135,8 @@
     <section class="section objective">
         <div class="container">
             <h2>Career Objective</h2>
-            <p>To enhance my skills and knowledge while contributing effectively to organizational goals. I aim to leverage my technical expertise and soft skills to create innovative solutions and drive business success in a dynamic and growth-oriented environment.</p>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="section skills">
-        <div class="container">
-            <h2>Technical Skills</h2>
-            <p class="section-subtitle">Programming Languages & Technologies</p>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <h3>C Programming</h3>
-                    <div class="skill-level">
-                        <div class="progress" style="width: 85%"></div>
-                    </div>
-                </div>
-                <div class="skill-card">
-                    <h3>Python</h3>
-                    <div class="skill-level">
-                        <div class="progress" style="width: 80%"></div>
-                    </div>
-                </div>
-                <div class="skill-card">
-                    <h3>HTML & CSS</h3>
-                    <div class="skill-level">
-                        <div class="progress" style="width: 90%"></div>
-                    </div>
-                </div>
-                <div class="skill-card">
-                    <h3>Web Development</h3>
-                    <div class="skill-level">
-                        <div class="progress" style="width: 85%"></div>
-                    </div>
-                </div>
-            </div>
-
-            <h2 style="margin-top: 60px;">Professional Soft Skills</h2>
-            <p class="section-subtitle">Key Competencies</p>
-            <div class="soft-skills">
-                <span class="skill-badge">Communication</span>
-                <span class="skill-badge">Teamwork</span>
-                <span class="skill-badge">Problem Solving</span>
-                <span class="skill-badge">Leadership</span>
-                <span class="skill-badge">Time Management</span>
-                <span class="skill-badge">Adaptability</span>
+            <div class="objective-card">
+                <p>To enhance my skills and knowledge while contributing effectively to organizational goals. I aim to leverage my technical expertise and creativity to build innovative solutions that make a real impact.</p>
             </div>
         </div>
     </section>
@@ -129,31 +144,25 @@
     <!-- Projects Section -->
     <section id="projects" class="section projects">
         <div class="container">
-            <h2>Projects</h2>
-            <p class="section-subtitle">Notable Work & Achievements</p>
+            <h2>Featured Projects</h2>
             <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Student Management System</h3>
-                    </div>
-                    <p>A comprehensive desktop application for managing student records, attendance tracking, and grade management. Developed with core programming principles and database integration.</p>
+                <div class="project-card glass-card">
+                    <div class="project-icon">📊</div>
+                    <h3>Student Management System</h3>
+                    <p>A comprehensive desktop application for managing student records, attendance, and grades with intuitive interfaces.</p>
                     <div class="project-tags">
                         <span class="tag">C Programming</span>
                         <span class="tag">Database</span>
-                        <span class="tag">Data Structures</span>
                     </div>
                 </div>
 
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Professional Portfolio Website</h3>
-                    </div>
-                    <p>A responsive and modern portfolio website showcasing professional skills and projects. Built with clean, semantic HTML and advanced CSS for optimal user experience across all devices.</p>
+                <div class="project-card glass-card">
+                    <div class="project-icon">🌐</div>
+                    <h3>Portfolio Website</h3>
+                    <p>A beautiful, responsive portfolio website showcasing my skills and projects with modern design principles.</p>
                     <div class="project-tags">
                         <span class="tag">HTML5</span>
                         <span class="tag">CSS3</span>
-                        <span class="tag">Web Design</span>
-                        <span class="tag">Responsive</span>
                     </div>
                 </div>
             </div>
@@ -164,19 +173,21 @@
     <section class="section hobbies">
         <div class="container">
             <h2>Interests & Hobbies</h2>
-            <p class="section-subtitle">Personal Passions Beyond Work</p>
             <div class="hobbies-grid">
-                <div class="hobby-card">
-                    <h3>📚 Reading</h3>
-                    <p>Passionate about exploring new ideas through books, articles, and technical documentation</p>
+                <div class="hobby-card glass-card">
+                    <div class="hobby-emoji">📚</div>
+                    <h3>Reading</h3>
+                    <p>Exploring new ideas through books and technical articles</p>
                 </div>
-                <div class="hobby-card">
-                    <h3>🎮 Gaming</h3>
-                    <p>Enthusiast gamer with interest in strategy games that enhance problem-solving skills</p>
+                <div class="hobby-card glass-card">
+                    <div class="hobby-emoji">🎮</div>
+                    <h3>Gaming</h3>
+                    <p>Strategy games that enhance creative problem-solving</p>
                 </div>
-                <div class="hobby-card">
-                    <h3>🎵 Music</h3>
-                    <p>Avid listener of various genres, music helps maintain creative and focused mindset</p>
+                <div class="hobby-card glass-card">
+                    <div class="hobby-emoji">🎵</div>
+                    <h3>Music</h3>
+                    <p>Listener of diverse genres for creative inspiration</p>
                 </div>
             </div>
         </div>
@@ -186,15 +197,21 @@
     <section id="contact" class="section contact">
         <div class="container">
             <h2>Get In Touch</h2>
-            <p class="section-subtitle contact-intro">I'm always interested in hearing about new projects and opportunities.</p>
-            <div class="contact-links">
-                <a href="mailto:abelgeorgesonyviiia@gmail.com" class="contact-card">
-                    <h3>📧 Email</h3>
-                    <p>abelgeorgesonyviiia@gmail.com</p>
+            <p class="contact-subtitle">Let's create something amazing together</p>
+            <div class="contact-methods">
+                <a href="mailto:abelgeorgesonyviiia@gmail.com" class="contact-button">
+                    <span class="icon">📧</span>
+                    <div>
+                        <p>Send an Email</p>
+                        <span>abelgeorgesonyviiia@gmail.com</span>
+                    </div>
                 </a>
-                <a href="tel:+918848236175" class="contact-card">
-                    <h3>📞 Phone</h3>
-                    <p>+91 8848236175</p>
+                <a href="tel:+918848236175" class="contact-button">
+                    <span class="icon">📱</span>
+                    <div>
+                        <p>Give a Call</p>
+                        <span>+91 8848236175</span>
+                    </div>
                 </a>
             </div>
         </div>
@@ -202,7 +219,39 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2026 Abel George Sony. All rights reserved.</p>
+        <p>Designed & Built with ✨ by Abel George Sony</p>
     </footer>
+
+    <script>
+        // Smooth scroll behavior
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Animate elements on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.glass-card, .skill-item, .project-card').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
 </body>
 </html>
